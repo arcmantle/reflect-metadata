@@ -1,0 +1,15 @@
+{
+	"extends": "@arcmantle/tsconfig",
+	"compilerOptions": {
+		"outDir": "../dist/lib",
+	},
+	"include": [
+		"./**/*.ts",
+		"./**/*.d.ts",
+		"./**/*.js",
+	],
+	"exclude": [
+		"./**/*.test.ts",
+		"./**/*.bench.ts",
+	]
+}
